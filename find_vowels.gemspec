@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ['Brajesh970']
   spec.email = ['brkumar@bestpeers.com']
 
-  spec.summary = 'This is gem to find vowels in string'
+  spec.summary = 'This is gem to find vowels and there count in string'
   spec.description = 'This gem use to filter vowels from the string'
   spec.homepage = 'https://github.com/Brajesh970/find_vowels'
   spec.license = 'MIT'

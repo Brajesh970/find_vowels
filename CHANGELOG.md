@@ -13,3 +13,12 @@
 - First update 
 
 - Added a feture to find uniq vowels in string.
+
+
+## [Released]
+
+## [0.1.2] - 2025-02-04
+
+- Second update 
+
+- Added a feture to find vowels count in string.

@@ -14,4 +14,8 @@ RSpec.describe FindVowels do
   it 'list uniq vowels in the string' do
     expect('abacd'.uniq_vowels).to eq(['a'])
   end
+
+  it 'returns count of specific vowels in the string' do
+    expect('abacd'.vowels_count).to eq({ 'a' => 2 })
+  end
 end
