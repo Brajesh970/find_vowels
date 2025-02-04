@@ -9,5 +9,9 @@ module FindVowels
     def vowels
       scan(/[aeiou]/i)
     end
+
+    def uniq_vowels
+      scan(/[aeiou]/i).uniq
+    end
   end
 end
