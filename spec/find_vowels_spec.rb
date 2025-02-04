@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+require 'spec_helper'
+
+RSpec.describe FindVowels do
+  it 'has a version number' do
+    expect(FindVowels::VERSION).not_to be nil
+  end
+
+  it 'list vowels in the string' do
+    expect('abcd'.vowels).to eq(['a'])
+  end
+end
