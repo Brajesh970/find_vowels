@@ -17,7 +17,7 @@ gem install find_vowels
 ```
 
 ## Usage
-TO use install it by adding it in gemfile like  `gem "find_vowels"` , then run bundle install. 
+To use install it by adding it in gemfile like  `gem "find_vowels"` , then run bundle install. 
 It is very simple to use. It returns the array of vowels present in the string.
 
 ## Example 
@@ -25,7 +25,7 @@ It is very simple to use. It returns the array of vowels present in the string.
     vowels_list = sentance.vowels // returns array of vowels present in sentance 
     puts vowels_list // prints ['a', 'a', 'u', 'o', 'a', 'i', 'e', 'e', 'o', 'e']
     uniq_list = sentance.uniq_vowels // returns array of uniq vowels present in sentance 
-    puts vowels_list // prints ['a', 'u', 'o', 'i', 'e']
+    puts uniq_list // prints ['a', 'u', 'o', 'i', 'e']
       
 ## Development
 
