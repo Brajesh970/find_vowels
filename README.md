@@ -4,8 +4,6 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 ## Installation
 
-TODO: Replace `find_vowels` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
 ```bash
@@ -19,9 +17,14 @@ gem install find_vowels
 ```
 
 ## Usage
+TO use install it by adding it in gemfile like  `gem "find_vowels"` , then run bundle install. 
+It is very simple to use. It returns the array of vowels present in the string.
 
-TODO: Write usage instructions here
-
+## Example 
+    sentance = "I am a ruby on rails developer"
+    vowels_list = sentance.vowels // returns array of vowels present in sentance 
+    puts vowels_list // prints ['a', 'a', 'u', 'o', 'a', 'i', 'e', 'e', 'o', 'e']
+      
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
