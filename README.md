@@ -1,4 +1,4 @@
-# FindVowels
+# Find Vowels
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/find_vowels`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -17,7 +17,7 @@ gem install find_vowels
 ```
 
 ## Usage
-TO use install it by adding it in gemfile like  `gem "find_vowels"` , then run bundle install. 
+To use install it by adding it in gemfile like  `gem "find_vowels"` , then run bundle install. 
 It is very simple to use. It returns the array of vowels present in the string.
 
 ## Example 
@@ -25,7 +25,7 @@ It is very simple to use. It returns the array of vowels present in the string.
     vowels_list = sentance.vowels // returns array of vowels present in sentance 
     puts vowels_list // prints ['a', 'a', 'u', 'o', 'a', 'i', 'e', 'e', 'o', 'e']
     uniq_list = sentance.uniq_vowels // returns array of uniq vowels present in sentance 
-    puts vowels_list // prints ['a', 'u', 'o', 'i', 'e']
+    puts uniq_list // prints ['a', 'u', 'o', 'i', 'e']
       
 ## Development
 
@@ -43,4 +43,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the FindVowels project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/Brajesh970/find_vowels/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Find Vowels project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/Brajesh970/find_vowels/blob/master/CODE_OF_CONDUCT.md).
