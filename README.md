@@ -22,10 +22,18 @@ It is very simple to use. It returns the array of vowels present in the string.
 
 ## Example 
     sentance = "I am a ruby on rails developer"
+    ## Find vowels
+    
     vowels_list = sentance.vowels // returns array of vowels present in sentance 
     puts vowels_list // prints ['a', 'a', 'u', 'o', 'a', 'i', 'e', 'e', 'o', 'e']
+
+    ## Find uniq vowels
+    
     uniq_list = sentance.uniq_vowels // returns array of uniq vowels present in sentance 
     puts uniq_list // prints ['a', 'u', 'o', 'i', 'e']
+
+    ## Find count
+    
     count = sentance.vowels_count // returns the hash of vowels count
     puts count // prints { "a" => 3, "u" => 1, "o" => 2, "i" => 1, "e" => 3 }
       
